@@ -1,0 +1,7 @@
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\bin\Debug\LabActivities_5th_Sem.exe.config
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\bin\Debug\LabActivities_5th_Sem.exe
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\bin\Debug\LabActivities_5th_Sem.pdb
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\obj\Debug\LabActivities_5th_Sem.csproj.AssemblyReference.cache
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\obj\Debug\LabActivities_5th_Sem.csproj.CoreCompileInputs.cache
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\obj\Debug\LabActivities_5th_Sem.exe
+D:\Projs\.NetFramework\ConsoleApp\LabActivities_5th_Sem\LabActivities_5th_Sem\obj\Debug\LabActivities_5th_Sem.pdb
