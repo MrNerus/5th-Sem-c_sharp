@@ -40,15 +40,25 @@ namespace LabActivities_5th_Sem
             {
                 { "1", new Tuple<string, Action>("Different Data Types", Different_Data_Types.Different_Data_Types.Entry_Point) },
                 { "2", new Tuple<string, Action>("Type Conversion", Type_Conversion.Type_Conversion.Entry_Point) },
-                { "3", new Tuple<string, Action>("Arithmetic Operators", Arithmetic_Operators.Arithmetic_Operators.Entry_Point) },
-                { "4", new Tuple<string, Action>("String Operations", String_Operations.String_Operations.Entry_Point) },
+                { "3", new Tuple<string, Action>("Percentage Calculator", Arithmetic_Operators.Percentage_Calculator.Entry_Point) },
+                { "4", new Tuple<string, Action>("Join Strings", String_Operations.Joins.Entry_Point) },
                 { "5", new Tuple<string, Action>("Passing Parameters", Passing_Parameters.Passing_Parameters.Entry_Point) },
                 { "6", new Tuple<string, Action>("Returning Methods", Returning_Methods.Returning_Methods.Entry_Point) },
                 { "7", new Tuple<string, Action>("Percentage To Grades", Control_Statements.Switch_Case.Entry_Point) },
                 { "8", new Tuple<string, Action>("Different Types of Array", Different_Array_Types.Different_Array_Types.Entry_Point) },
                 { "9", new Tuple<string, Action>("Boxing and UnBoxing", Boxing_UnBoxing.Boxing_UnBoxing.Entry_Point) },
                 { "10", new Tuple<string, Action>("Sum of n Natural Numbers", Algorithms.Natural_Numbers_Sum.Entry_Point) },
-                { "11", new Tuple<string, Action>("For Each", Control_Statements.For_Each.Entry_Point) }
+                { "11", new Tuple<string, Action>("For Each", Control_Statements.For_Each.Entry_Point) },
+                { "12", new Tuple<string, Action>("Rangom Number Guessing", Game.RNG_Game.Entry_Point) },
+                { "13", new Tuple<string, Action>("Inventory Management", Simulation.Inventory_Management.Entry_Point) },
+                { "14", new Tuple<string, Action>("Sum of Prime Numbers in Range", Algorithms.Prime_Range.Entry_Point) },
+                { "15", new Tuple<string, Action>("Add numbers untill negative", Algorithms.Add_Untill_Negative.Entry_Point) },
+                { "16", new Tuple<string, Action>("Case and Length of string", String_Operations.Case_And_Length.Entry_Point) },
+                { "17", new Tuple<string, Action>("Leap Year", Algorithms.Leap_Year.Entry_Point) },
+                { "18", new Tuple<string, Action>("Banking System", Simulation.Simple_Bank.Entry_Point) },
+                { "19", new Tuple<string, Action>("Multiplication Table", Arithmetic_Operators.Multiplication_Table.Entry_Point) },
+                { "20", new Tuple<string, Action>("Geometry", Arithmetic_Operators.Geometry.Entry_Point) },
+                { "21", new Tuple<string, Action>("Sum of Digits", Algorithms.Sum_Of_Digits.Entry_Point) },
 
 
             };

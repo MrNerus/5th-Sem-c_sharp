@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabActivities_5th_Sem.Arithmetic_Operators
 {
-    public static class Arithmetic_Operators
+    public static class Percentage_Calculator
     {
         public static void Entry_Point()
         {

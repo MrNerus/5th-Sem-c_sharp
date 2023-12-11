@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LabActivities_5th_Sem.String_Operations
 {
-    public static class String_Operations
+    public static class Joins
     {
         public static void Entry_Point()
         {

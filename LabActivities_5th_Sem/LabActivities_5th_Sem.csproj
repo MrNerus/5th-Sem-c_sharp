@@ -43,18 +43,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Add_Untill_Negative.cs" />
+    <Compile Include="Algorithms\Leap_Year.cs" />
     <Compile Include="Algorithms\Natural_Numbers_Sum.cs" />
-    <Compile Include="Arithmetic_Operators\Arithmetic_Operators.cs" />
+    <Compile Include="Algorithms\Prime_Range.cs" />
+    <Compile Include="Algorithms\Sum_Of_Digits.cs" />
+    <Compile Include="Arithmetic_Operators\Geometry.cs" />
+    <Compile Include="Arithmetic_Operators\Multiplication_Table.cs" />
+    <Compile Include="Arithmetic_Operators\Percentage_Calculator.cs" />
     <Compile Include="Boxing_UnBoxing\Boxing_UnBoxing.cs" />
     <Compile Include="Control_Statements\For_Each.cs" />
     <Compile Include="Control_Statements\Switch_Case.cs" />
     <Compile Include="Different_Array_Types\Different_Array_Types.cs" />
     <Compile Include="Different_Data_Types\Different_Data_Types.cs" />
+    <Compile Include="Simulation\Inventory_Management.cs" />
     <Compile Include="Passing_Parameters\Passing_Parameters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Returning_Methods\Returning_Methods.cs" />
-    <Compile Include="String_Operations\String_Operations.cs" />
+    <Compile Include="Game\RNG_Game.cs" />
+    <Compile Include="Simulation\Simple_Bank.cs" />
+    <Compile Include="String_Operations\Case_And_Length.cs" />
+    <Compile Include="String_Operations\Joins.cs" />
     <Compile Include="Type_Conversion\Type_Conversion.cs" />
   </ItemGroup>
   <ItemGroup>
