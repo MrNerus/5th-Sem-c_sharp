@@ -52,17 +52,23 @@ namespace LabActivities_5th_Sem.Simulation
         public void Deposit(double amount)
         {
             this.amount += amount;
-            Console.WriteLine("फेरि पनि आउदै गर्नु होला!");
+            //Console.WriteLine("फेरि पनि आउदै गर्नु होला!");
+            Console.WriteLine("See you again!");
+
         }
         public void Withdraw(double amount)
         {
             if (this.amount < amount)
             {
-                Console.WriteLine("राख्न देको थिइस् र?");
+                //Console.WriteLine("राख्न देको थिइस् र?");
+                Console.WriteLine("Insufficient Balance!");
+
                 return;
             }
             this.amount -= amount;
-            Console.WriteLine("हजुर को समय उज्ज्वल रहोस्।");
+            //Console.WriteLine("हजुर को समय उज्ज्वल रहोस्।");
+            Console.WriteLine("Have a nice day!");
+
             return;
         }
         public void Enquery()

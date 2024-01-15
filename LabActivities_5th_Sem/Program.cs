@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LabActivities_5th_Sem.Simulation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,28 @@ namespace LabActivities_5th_Sem
         ///     <qs_9>Write a C# program to show concept of boxing and unboxing.</qs_9>
         ///     <qs_10>Write a program in C# Sharp to display n terms of natural number and their sum.</qs_10>
         ///     <qs_11>Write a program to input 5 numbers from users store them in array and display them using foreach loop.</qs_11>
-        ///     <qs_12>Write a C# program to show different types of comments.</qs_12>
+        ///     <qs_None>Write a C# program to show different types of comments.</qs_None>
+        ///     <qs_12>L: WAP to create a C# program that generates a random number between 1 and 100. Ask the user to guess the number and provide feedback on whether the guess is correct, too high, or too low.</qs_12>
+        ///     <qs_13>L: WAP to implement a C# program that simulates a basic inventory system for a grocery store. Allow the user to add items, specify quantities, and display the current inventory.</qs_13>
+        ///     <qs_14>L: WAP to create a C# program that calculates the sum of all prime numbers within a given range. Accept user input for the range.</qs_14>
+        ///     <qs_15>L: WAP to implement a C# program that reads a series of integers from the user until a negative number is entered. Display the sum of the entered positive numbers.</qs_15>
+        ///     <qs_16>L: WAP to create a C# program that manipulates a string. Allow the user to input a sentence and then convert it to uppercase, lowercase, and display the length.</qs_16>
+        ///     <qs_17>L: WAP to implement a C# program that checks if a given year is a leap year. Accept user input for the year and display the result.</qs_17>
+        ///     <qs_18>L: WAP to create a C# program that simulates a simple bank account. Allow the user to perform operations such as deposit, withdrawal, and balance inquiry.</qs_18>
+        ///     <qs_19>L: WAP to implement a C# program that generates and displays a multiplication table for a given number. Accept user input for the number.</qs_19>
+        ///     <qs_20>L: WAP to create a class in C# representing a geometric shape. Include methods to calculate area and perimeter.</qs_20>
+        ///     <qs_21>L: WAP to create a C# program that calculates the sum of digits in a given integer. Accept user input for the integer.</qs_21>
+        ///     <qs_22>Create a  c# mini project to CRUD Employees and Departments
+  	    ///             22.1  Department has Id, Name, Remarks and Employee has Id, Name, DepartmentId, Salary.
+        ///             22.2 Use abstract class, interfaces and inheritance.
+        ///     </qs_22>
+        ///     <qs_group> Write a c# programs to show different kinds of polymorphism.
+        ///             <qs_23>Operator Overloading(Unary and Binary), overload “*” operator.</qs_23>
+        ///             <qs_24>Method Overloading(Use Both Custom and Inbuilt).</qs_24>
+        ///             <qs_25>Method Overriding(Use Both Custom and Inbuilt).</qs_25>       
+        ///     </qs_group>
+        ///     <qs_26>Not a question: Using Abstract Class.</qs_26>
+
         /// </summary>
         /// <param name="args"> @args: It is ignored. </param>
         static void Main(string[] args)
@@ -59,6 +81,12 @@ namespace LabActivities_5th_Sem
                 { "19", new Tuple<string, Action>("Multiplication Table", Arithmetic_Operators.Multiplication_Table.Entry_Point) },
                 { "20", new Tuple<string, Action>("Geometry", Arithmetic_Operators.Geometry.Entry_Point) },
                 { "21", new Tuple<string, Action>("Sum of Digits", Algorithms.Sum_Of_Digits.Entry_Point) },
+                { "22", new Tuple<string, Action>("Employee Management", Simulation.Employee_Management.Entry_Point) },
+                { "23", new Tuple<string, Action>("Types of Inheritence", Classes.Animal_Tree.Entry_Point) },
+                { "24", new Tuple<string, Action>("Operator Overloading", Overloads.Operator_Overloading.Entry_Point) },
+                { "25", new Tuple<string, Action>("Method Overloading", Overloads.Method_Overloading.Entry_Point) },
+                { "26", new Tuple<string, Action>("Method Overriding", Overloads.Method_Overriding.Entry_Point) },
+                { "27", new Tuple<string, Action>("Abstract Class Inheritance", Classes.Abstraction.Entry_Point) },
 
 
             };

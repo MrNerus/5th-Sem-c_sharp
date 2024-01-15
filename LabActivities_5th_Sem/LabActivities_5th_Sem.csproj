@@ -52,10 +52,16 @@
     <Compile Include="Arithmetic_Operators\Multiplication_Table.cs" />
     <Compile Include="Arithmetic_Operators\Percentage_Calculator.cs" />
     <Compile Include="Boxing_UnBoxing\Boxing_UnBoxing.cs" />
+    <Compile Include="Classes\Abstraction.cs" />
     <Compile Include="Control_Statements\For_Each.cs" />
     <Compile Include="Control_Statements\Switch_Case.cs" />
     <Compile Include="Different_Array_Types\Different_Array_Types.cs" />
     <Compile Include="Different_Data_Types\Different_Data_Types.cs" />
+    <Compile Include="Classes\Animal_Tree.cs" />
+    <Compile Include="Overloads\Method_Overloading.cs" />
+    <Compile Include="Overloads\Method_Overriding.cs" />
+    <Compile Include="Overloads\Operator_Overloading.cs" />
+    <Compile Include="Simulation\Employee_Management.cs" />
     <Compile Include="Simulation\Inventory_Management.cs" />
     <Compile Include="Passing_Parameters\Passing_Parameters.cs" />
     <Compile Include="Program.cs" />

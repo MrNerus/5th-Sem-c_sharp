@@ -49,7 +49,6 @@ namespace LabActivities_5th_Sem.Simulation
 
     static class Inventory
     {
-        // { "id" : [product object, quantity]}
         static Dictionary<int, Product> inventory= new Dictionary<int, Product>{};
         public static void Add_Product() 
         {
