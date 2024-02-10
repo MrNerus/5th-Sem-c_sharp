@@ -61,7 +61,10 @@
     <Compile Include="Overloads\Method_Overloading.cs" />
     <Compile Include="Overloads\Method_Overriding.cs" />
     <Compile Include="Overloads\Operator_Overloading.cs" />
-    <Compile Include="Simulation\Employee_Management.cs" />
+    <Compile Include="Simulation\Employee_Management\Common.cs" />
+    <Compile Include="Simulation\Employee_Management\Department_Handeling.cs" />
+    <Compile Include="Simulation\Employee_Management\Employee_Handeling.cs" />
+    <Compile Include="Simulation\Employee_Management\Employee_Management.cs" />
     <Compile Include="Simulation\Inventory_Management.cs" />
     <Compile Include="Passing_Parameters\Passing_Parameters.cs" />
     <Compile Include="Program.cs" />

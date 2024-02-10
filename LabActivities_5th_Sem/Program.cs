@@ -43,6 +43,9 @@ namespace LabActivities_5th_Sem
         ///     <qs_22>Create a  c# mini project to CRUD Employees and Departments
   	    ///             22.1  Department has Id, Name, Remarks and Employee has Id, Name, DepartmentId, Salary.
         ///             22.2 Use abstract class, interfaces and inheritance.
+        ///             22.3 Search employees by name(Handle case sensitivity).
+        ///             22.4 Search department whose name starts with ‘B’.
+        ///             22.5 Search department whose name ends with ‘E’.
         ///     </qs_22>
         ///     <qs_group> Write a c# programs to show different kinds of polymorphism.
         ///             <qs_23>Operator Overloading(Unary and Binary), overload “*” operator.</qs_23>
@@ -81,7 +84,7 @@ namespace LabActivities_5th_Sem
                 { "19", new Tuple<string, Action>("Multiplication Table", Arithmetic_Operators.Multiplication_Table.Entry_Point) },
                 { "20", new Tuple<string, Action>("Geometry", Arithmetic_Operators.Geometry.Entry_Point) },
                 { "21", new Tuple<string, Action>("Sum of Digits", Algorithms.Sum_Of_Digits.Entry_Point) },
-                { "22", new Tuple<string, Action>("Employee Management", Simulation.Employee_Management.Entry_Point) },
+                { "22", new Tuple<string, Action>("Employee Management", Simulation.Employee_Management.Employee_Management.Entry_Point) },
                 { "23", new Tuple<string, Action>("Types of Inheritence", Classes.Animal_Tree.Entry_Point) },
                 { "24", new Tuple<string, Action>("Operator Overloading", Overloads.Operator_Overloading.Entry_Point) },
                 { "25", new Tuple<string, Action>("Method Overloading", Overloads.Method_Overloading.Entry_Point) },
