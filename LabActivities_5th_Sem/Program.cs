@@ -47,13 +47,15 @@ namespace LabActivities_5th_Sem
         ///             22.4 Search department whose name starts with ‘B’.
         ///             22.5 Search department whose name ends with ‘E’.
         ///     </qs_22>
+        ///     <qs_23>Write a c# program to show different kinds of inheritance.</qs_23>
         ///     <qs_group> Write a c# programs to show different kinds of polymorphism.
-        ///             <qs_23>Operator Overloading(Unary and Binary), overload “*” operator.</qs_23>
-        ///             <qs_24>Method Overloading(Use Both Custom and Inbuilt).</qs_24>
-        ///             <qs_25>Method Overriding(Use Both Custom and Inbuilt).</qs_25>       
+        ///             <qs_24>Operator Overloading(Unary and Binary), overload “*” operator.</qs_23>
+        ///             <qs_25>Method Overloading(Use Both Custom and Inbuilt).</qs_24>
+        ///             <qs_26>Method Overriding(Use Both Custom and Inbuilt).</qs_25>       
         ///     </qs_group>
-        ///     <qs_26>Not a question: Using Abstract Class.</qs_26>
-
+        ///     <qs_27>Not a question: Using Abstract Class.</qs_26>
+        ///     <qs_28>Write a c# program to show Upcasting and Downcasting.</qs_26>
+        ///     
         /// </summary>
         /// <param name="args"> @args: It is ignored. </param>
         static void Main(string[] args)
@@ -88,9 +90,10 @@ namespace LabActivities_5th_Sem
                 { "23", new Tuple<string, Action>("Types of Inheritence", Classes.Animal_Tree.Entry_Point) },
                 { "24", new Tuple<string, Action>("Operator Overloading", Overloads.Operator_Overloading.Entry_Point) },
                 { "25", new Tuple<string, Action>("Method Overloading", Overloads.Method_Overloading.Entry_Point) },
-                { "26", new Tuple<string, Action>("Method Overriding", Overloads.Method_Overriding.Entry_Point) },
+                { "26.1", new Tuple<string, Action>("Method Overriding (custom)", Overloads.Method_Overriding.Entry_Point) },
+                { "26.2", new Tuple<string, Action>("Method Overriding (builtin)", Overloads.BuiltIn_Overriding.Entry_Point) },
                 { "27", new Tuple<string, Action>("Abstract Class Inheritance", Classes.Abstraction.Entry_Point) },
-
+                { "28", new Tuple<string, Action>("Upcasting and DownCasting", Classes.UpCasting_DownCasting.Entry_Point) },
 
             };
 
